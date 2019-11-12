@@ -43,7 +43,7 @@ header.masthead h1 {
 
 /* NAVBAR AUTO-HIDE  */
 #navbar {
-  z-index: 9999;
+  z-index: 1000;
 }
 
 #navbar {
