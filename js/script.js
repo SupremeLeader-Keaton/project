@@ -6,8 +6,7 @@ $(document).ready(function () {
   })
 })
 
-function showName(e){
-  var firstName= document.getElementById("firstname").value;
-  var lastName = document.getElementById("lastname").value;
-  document.getElementById("show").innerText = firstName+" "+lastName;        
+function showName(e) {
+  var firstName = document.getElementById("form34").value;
+  document.getElementById("show").innerText = firstName;
 }

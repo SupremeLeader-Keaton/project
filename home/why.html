@@ -1,4 +1,6 @@
 <!--RAYSON-->
+
+<!--Text & Picture-->
 <div class="row">
   <div class="col-md-6">
     <p>&nbsp;</p>
@@ -25,6 +27,7 @@
   </div>
 </div>
 
+<!--Buttons-->
 <div class="text-center">
   <p style="font-size: 5px">&nbsp;</p>
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#unavailableModal">Live
@@ -32,75 +35,4 @@
   &nbsp;&nbsp;&nbsp;
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#appointmentModal">Make an
     Appointment</button>
-</div>
-
-<!--MODAL SYSTEM***************************************************************************-->
-<!--Unavailable Modal-->
-<div class=" modal fade" id="unavailableModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sorry!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        This service is currently unavailable right now due to regulations and policies. You can still book
-        appointments with us!
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal"
-          data-target="#appointmentModal">Make an
-          Appointment</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--Appointment MODAL-->
-<div class="modal fade" id="appointmentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Appointment Form</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
-          <input type="text" id="form34" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form34">Full Name</label>
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="number" id="form29a" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form29">Contact Number</label>
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="form29b" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form29">Address</label>
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fas fa-tag prefix grey-text"></i>
-          <input type="text" id="form32" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form32">Department you wish to consult</label>
-        </div>
-
-        <div class="md-form">
-          <i class="fas fa-pencil prefix grey-text"></i>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-          <label data-error="wrong" data-success="right" for="form8">Symptomps or concerns that you have</label>
-        </div>
-    </div>
-  </div>
 </div>
