@@ -7,7 +7,7 @@ html {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background: linear-gradient(to bottom, rgba(22, 190, 182, 0.8) 0%, rgba(162, 214, 235, 0.8) 100%), url("../img/masthead.jpg");
+    background: linear-gradient(to bottom, rgba(22, 190, 182, 0.8) 0%, rgba(162, 214, 235, 0.8) 100%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRkhJeytRHUU-1aPNGjvXCLeg1qsL_MXnj7eEFYebqCvFbELhpI");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
